@@ -28,65 +28,9 @@ Meta-Learning, specifically Model-Agnostic Meta-Learning (MAML), is a technique 
    - Evaluates the trained model using metrics such as accuracy, precision, recall, and F1-score.
    - Visualizes model performance with confusion matrices and correctly/misclassified images.
 
-## Usage
-
-### Requirements
-
-- Python 3.x
-- PyTorch
-- torchvision
-- matplotlib
-- scikit-learn
-- seaborn
-
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your_username/your_repository.git
-   cd your_repository
-   ```
-
-2. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-### Training
-
-To train the MAML model on your dataset, follow these steps:
-
-1. Prepare your dataset and ensure it is structured correctly.
-2. Set the dataset paths in the script.
-3. Adjust hyperparameters such as learning rate (`lr`), number of epochs, and batch size as needed.
-4. Run the training script:
-
-   ```bash
-   python train.py
-   ```
-
-### Evaluation
-
-After training, evaluate the model's performance:
-
-1. Load trained model weights.
-2. Evaluate metrics like accuracy, precision, recall, and F1-score using test data.
-3. Visualize results using confusion matrices and sample correctly/misclassified images.
-
-### Example Usage
-
-```python
-python train.py  # To train the model
-python evaluate.py  # To evaluate the trained model
-```
 
 ## Refrences
 https://www.kaggle.com/datasets/misrakahmed/vegetable-image-dataset?select=Vegetable+Images
 https://www.researchgate.net/publication/352846889_DCNN-Based_Vegetable_Image_Classification_Using_Transfer_Learning_A_Comparative_Study
-## Acknowledgments
 
-- Inspiration and foundational concepts from Model-Agnostic Meta-Learning (MAML) research.
-- PyTorch community for their powerful and flexible deep learning framework.
 
