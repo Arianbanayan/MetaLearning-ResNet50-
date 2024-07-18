@@ -2,6 +2,8 @@
 
 
 This repository contains code for a Meta-Learning (MAML) model implemented using PyTorch, with a ResNet-50 backbone for image classification tasks. The model is designed to adapt quickly to new tasks through meta-learning principles.
+
+
 ![dataset-cover (2)](https://github.com/user-attachments/assets/10c11182-2a42-4b62-a978-703b065c833b)
 
 ## Overview
